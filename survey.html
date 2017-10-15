@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="iso-8859-7">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/firstWebsite.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/declarativeToggle.js"></script>
+    <title>Survey</title>
+  </head>
+  <body>
+
+    <header>
+      <h1>Take a Quick Survey!</h1>
+    </header>
+    <div id="navBar" class="contain clearFix">
+      <p class="cenText padMe">Welcome to my website building project!</p>
+      <span data-toggle-target=".navMenu" class="menuButton toggle-btn">Menu</span>
+      <nav class="navMenu">
+        <ul class="clearFix">
+          <li><a href="newWebPage.html">Home</a></li>
+          <li><a href="imgGallery.html">Image Gallery</a></li>
+          <li><a href="tableEx.html">A Table</a></li>
+          <li><a href="survey.html">Feedback Survey</a></li>
+          <li><a href="contact.html">Get in Touch</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="contain clearFix">
+      <form class="surveyF" action="" method="post">
+
+        <div class="">
+          <label for="navigation">Was the site easy to navigate?</label>
+          <select id="navigation" class="" name="navigation">
+            <option value="navigationYes">Yes</option>
+            <option value="navigationNo">No</option>
+          </select>
+        </div>
+
+        <fieldset>
+          <legend>Was the website well built?</legend>
+
+          <label for="presentationYes">Yes</label>
+          <input id="presentationYes" type="radio"
+          name="presentation" value="presentationYes">
+
+          <label for="presentationNo">No</label>
+          <input id="presentationNo" type="radio"
+          name="presentation" value="presentationNo">
+
+          <label for="presentationBetter">Needs Improvement</label>
+          <input id="presentationBetter"
+          type="radio" name="presentation" value="presentationBetter">
+        </fieldset>
+
+        <fieldset>
+          <legend>What do you like about
+             the website?(Check all that apply)</legend>
+
+          <label for="likeColour">Colour Scheme</label>
+          <input id="likeColour" type="checkbox" name="like" value="likeColour">
+
+          <label for="likeContent">Content</label>
+          <input id="likeContent" type="checkbox" name="like" value="likeContent">
+
+          <label for="likeDesign">Design</label>
+          <input id="likeDesign" type="checkbox" name="like" value="likeDesign">
+        </fieldset>
+
+        <fieldset>
+          <legend>What do you dislike about
+             the website?(Check all that apply)</legend>
+
+          <label for="dislikeColour">Colour Scheme</label>
+          <input id="dislikeColour" type="checkbox" name="dislike" value="dislikeColour">
+
+          <label for="dislikeContent">Content</label>
+          <input id="disikeContent" type="checkbox" name="dislike" value="dislikeContent">
+
+          <label for="dislikeDesign">Design</label>
+          <input id="dislikeDesign" type="checkbox" name="dislike" value="dislikeDesign">
+        </fieldset>
+
+        <input type="submit" name="" value="Submit">
+      </form>
+    </div>
+
+    <div class="cenText contain clearFix">
+      <p>Looking to leave more feedback?
+      <br>Click <a href="contact.html">here</a>.</p>
+    </div>
+
+    <div class="cenText contain clearFix">
+      <div class="homeButton">
+        <a id="botA" href="newWebPage.html">Home</a>
+      </div>
+    </div>
+
+    <footer class="cenText clearFix">
+      <p>This website has been made by <em>&ldquo;Yan Stefanovich&rdquo;</em>.
+         2017.</p>
+    </footer>
+
+  </body>
+</html>

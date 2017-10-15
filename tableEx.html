@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="iso-8859-7">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/firstWebsite.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/declarativeToggle.js"></script>
+    <title>Table Practice</title>
+  </head>
+  <body>
+    <header>
+      <h1>Making a Random Table!</h1>
+    </header>
+    <div id="navBar" class="contain clearFix">
+      <p class="cenText padMe">Welcome to my website building project!</p>
+      <span data-toggle-target=".navMenu" class="menuButton toggle-btn">Menu</span>
+      <nav class="navMenu">
+        <ul class="clearFix">
+          <li><a href="newWebPage.html">Home</a></li>
+          <li><a href="imgGallery.html">Image Gallery</a></li>
+          <li><a href="tableEx.html">A Table</a></li>
+          <li><a href="survey.html">Feedback Survey</a></li>
+          <li><a href="contact.html">Get in Touch</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="tableM" class="contain clearFix">
+      <h1 id="tableH" class="cenText">A Random Table</h1>
+      <table class="random">
+        <thead>
+          <tr>
+            <th class="colE">Emotion</th>
+            <th class="colAc">Associated Colour</th>
+            <th class="colAe">Associated Expression</th>
+            <th class="colF">Feeling</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Happy</td>
+            <td>Green</td>
+            <td>Smile</td>
+            <td>Warm</td>
+          </tr>
+          <tr>
+            <td>Angry</td>
+            <td>Red</td>
+            <td>Scowl</td>
+            <td>Ire</td>
+          </tr>
+          <tr>
+            <td>Infactuated</td>
+            <td>Pink</td>
+            <td>Blush</td>
+            <td>Floating</td>
+          </tr>
+          <tr>
+            <td>Sad</td>
+            <td>Blue</td>
+            <td>Blank</td>
+            <td>Lost</td>
+          </tr>
+
+          <tfoot>
+            <tr>
+              <td>All</td>
+              <td>N/A</td>
+              <td>Neutral</td>
+              <td>None</td>
+            </tr>
+          </tfoot>
+        </tbody>
+
+      </table>
+    </div>
+
+    <div class="cenText clearFix contain">
+      <div class="homeButton">
+        <a id="botA" href="newWebPage.html">Home</a>
+      </div>
+    </div>
+
+
+    <footer class="cenText clearFix">
+      <p>This website has been made by <em>&ldquo;Yan Stefanovich&rdquo;</em>.
+         2017.</p>
+    </footer>
+  </body>
+</html>

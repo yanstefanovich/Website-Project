@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="iso-8859-7">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/firstWebsite.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/cycle2.js"></script>
+    <script type="text/javascript" src="js/declarativeToggle.js"></script>
+    <title>Home Page</title>
+  </head>
+
+<body>
+
+  <header>
+    <h1>My Website Building Project!</h1>
+  </header>
+  <div id="navBar" class="contain clearFix">
+    <p class="cenText padMe">Welcome to my website building project!</p>
+    <span data-toggle-target=".navMenu" class="menuButton toggle-btn">Menu</span>
+    <nav class="navMenu">
+      <ul class="clearFix">
+        <li><a href="newWebPage.html">Home</a></li>
+        <li><a href="imgGallery.html">Image Gallery</a></li>
+        <li><a href="tableEx.html">A Table</a></li>
+        <li><a href="survey.html">Feedback Survey</a></li>
+        <li><a href="contact.html">Get in Touch</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="contain clearFix">
+    <h1>Purpose</h1>
+    <article class="intro">
+      <p>
+      This website is deticated to helping me try different functions
+       and techniques with <strong>HTML</strong>, <strong>CSS</strong> and
+       <strong>JavaScript</strong>.
+      <br>
+      This website is for experimenting purposes because experimenting is fun!
+      <br>
+      Be prepared - you may learn some interseting
+      things about <span class="practice">me</span>.
+      </p>
+    </article>
+    <aside class="dropDown cenText clearFix">
+      <ul class="relA">
+        <li><a href="#">Useless Facts About Me!</a>
+          <ul>
+            <li><a href="fave_colours.html">My Favourite Colour</a></li>
+            <li><a href="mycat.html">My Cat</a></li>
+          </ul>
+        </li>
+      </ul>
+    </aside>
+  </div> <!-- First Article Container Div -->
+
+
+  <div class="contain clearFix">
+    <h1>Slide Show</h1>
+    <p>Here are some pictures I took in the past. Enjoy the slide show!
+      <br>The slideshow has been created using Cycle2.</p>
+    <div class="cycleGallery cycle-slideshow" data-cycle-slides=".cycleImg"
+    data-cycle-pause-on-hover="true">
+
+      <span class="cycle-prev">&lsaquo;&lsaquo;</span>
+      <span class="cycle-next">&rsaquo;&rsaquo;</span>
+
+      <span class="cycle-pager"></span>
+
+      <div class="cycleImg">
+        <img src="images/cycle/niagraFalls.jpg" alt="Niagra Falls">
+        <div class="imgText">
+          <p>Image Description</p>
+        </div>
+      </div>
+
+      <div class="cycleImg">
+        <img src="images/cycle/rainbow.jpg" alt="Rainbow">
+        <div class="imgText">
+          <p>Image Description</p>
+        </div>
+      </div>
+
+      <div class="cycleImg">
+        <img src="images/cycle/creek.jpg" alt="Creek">
+        <div class="imgText">
+          <p>Image Description</p>
+        </div>
+      </div>
+
+      <div class="cycleImg">
+        <img src="images/cycle/pompeii.jpg" alt="Pompeii">
+        <div class="imgText">
+          <p>Image Description</p>
+        </div>
+      </div>
+
+      <div class="cycleImg">
+        <img src="images/cycle/babySquirrel.jpg" alt="Baby Squirel">
+        <div class="imgText">
+          <p>Image Description</p>
+        </div>
+      </div>
+
+      <div class="cycleImg">
+        <img src="images/cycle/azoresValley.jpg" alt=" Azores Valley">
+        <div class="imgText">
+          <p>Image Description</p>
+        </div>
+      </div>
+
+      <div class="cycleImg">
+        <img src="images/cycle/truckSale.jpg" alt="Truck for Sale">
+        <div class="imgText">
+          <p>Image Description</p>
+        </div>
+      </div>
+
+      <div class="cycleImg">
+        <img src="images/cycle/streetCar.jpg" alt="Street Car">
+        <div class="imgText">
+          <p>Image Description</p>
+        </div>
+      </div>
+
+      <div class="cycleImg">
+        <img src="images/cycle/andorra.jpg" alt="Andorra">
+        <div class="imgText">
+          <p>Image Description</p>
+        </div>
+      </div>
+
+      <div class="cycleImg">
+        <img src="images/cycle/iceSpoiler.jpg" alt="Ice Spoiler">
+        <div class="imgText">
+          <p>Image Description</p>
+        </div>
+      </div>
+
+      <div class="cycleImg">
+        <img src="images/cycle/germany.jpg" alt="Germany">
+        <div class="imgText">
+          <p>Image Description</p>
+        </div>
+      </div>
+
+      <div class="cycleImg">
+        <img src="images/cycle/azoresIsland.jpg" alt="Azores Island">
+        <div class="imgText">
+          <p>Image Description</p>
+        </div>
+      </div>
+
+      <div class="cycleImg">
+        <img src="images/cycle/paris.jpg" alt="Paris">
+        <div class="imgText">
+          <p>Image Description</p>
+        </div>
+      </div>
+
+      <div class="cycleImg">
+        <img src="images/cycle/rilaMonastery.jpg" alt="Rila Monastery">
+        <div class="imgText">
+          <p>Image Description</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Music Secion -->
+  <div class="contain clearFix">
+    <h1>Music</h1>
+    <article class="">
+      <p>Adding some music to my webpage.</p>
+      <div class="music clearFix topBox">
+        <div class="leftBox">
+          <p>I enjoy listening to K-Pop.<br>
+          Here's one of the songs I like.</p>
+        </div> <!-- Paragraph Div -->
+        <div class="rightBox">
+          <a href="https://www.youtube.com/watch?v=Amq-qlqbjYA"
+          target="_blank">
+            As If It's Your Last - Black Pink</a><br>
+          <audio controls>
+            <source src="sounds/song.mp3" type="audio/mpeg">
+            <a href="sounds/song.mp3">As If It's Your Last</a>
+          </audio>
+        </div> <!-- Song Div -->
+      </div> <!-- K-POP Div -->
+
+      <div class="music clearFix botBox">
+        <div class="leftBox">
+          <p>I like other genres of music too.<br> Give it a listen.</p>
+        </div> <!--Paragraph Div-->
+        <div class="rightBox">
+          <a href="https://www.youtube.com/watch?v=e-IWRmpefzE"
+          target="_blank">
+            Bonfire - Knife Party</a><br>
+          <audio controls src="sounds/song2.flac" type="audio/flac">
+            <a href="sounds/song2.flac">Bonfire</a>
+          </audio>
+        </div> <!--Song Div-->
+      </div> <!--Dub Div-->
+    </article>
+  </div> <!-- Container Div-->
+  <!--Music section Ends-->
+
+  <div class="contain clearFix">
+    <h1>Video</h1>
+    <p>This is a video of my friend and I on a boat. We went out to fish.
+    My friend is the driver.</p>
+    <div id="vid1">
+      <video controls width="260px">
+        <source src="video/video.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+  <footer class="cenText clearFix">
+    <p>Website made by <em>&ldquo;Yan Stefanovich&rdquo;</em>.
+       2017.</p>
+  </footer>
+
+</body>
+
+</html>
