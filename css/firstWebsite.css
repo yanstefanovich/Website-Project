@@ -4,7 +4,7 @@ body{
   margin: 0;
   padding: 0;
   background-color: #acdb67;
-  font-size: 100%;
+  font-size: 18px;
 }
 /*Body Style End*/
 
@@ -476,6 +476,10 @@ audio{
 /* Cycle Gallery Style End****************************Cycle Gallery Style End*/
 
 /*Image Gallery Style*************************************Image Gallery Style*/
+.fullSize{
+  display: block;
+  width: 100%;
+}
 .thumbNailContainer{
   width: 23%;
   padding: 1.5%;
@@ -491,7 +495,6 @@ audio{
   transition: all 1s;
 }
 .thumbNailContainer:hover{
-  opacity: 1;
   transform: scale(1.15);
 }
 .thumbNailContainer:hover img{
@@ -669,7 +672,6 @@ form div{
 .collection .colourBox:nth-child(18n+16){background-color: teal;}
 .collection .colourBox:nth-child(18n+17){background-color: OrangeRed;}
 .collection .colourBox:nth-child(18n+18){background-color: MediumVioletRed;}
-
 
 
 /*Clear Fix*/
